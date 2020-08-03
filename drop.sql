@@ -12,3 +12,4 @@ DROP SEQUENCE files_id_seq;
 DROP SEQUENCE oauth2client_id_seq;
 DROP SEQUENCE oauth2authorization_id_seq;
 DROP SEQUENCE oauth2token_id_seq;
+DELETE FROM alembic_version;
